@@ -1,0 +1,35 @@
+body{
+    /* max-height: 100vh; */
+    overflow:hidden;
+}
+.rectangle {
+    height: 90px;
+    width: 30px;
+    top: 15px;
+
+    position: absolute;
+    background-color: red;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+ }
+ .arrow-up {
+    /* transform: rotate(45deg); */
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid black;
+    position: fixed;
+    bottom: 0px;
+    background-color:blue;
+  }
