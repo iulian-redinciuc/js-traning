@@ -61,3 +61,6 @@ names.reduce(function (acc, curr) {
     }
     return acc;
 }, {});
+
+
+
