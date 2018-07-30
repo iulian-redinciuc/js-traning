@@ -123,6 +123,19 @@
                         <li> GuessJS</li>
                     </ul>
                 </li>
+                <br/>
+                <li>
+                    <a class="link" href="https://www.youtube.com/watch?v=Fg7niTmNNLg">Parsing JavaScript - better lazy than eager?</a> - Marja Hölttä
+                    <ul>
+                        <li> The parser gets JS source code and constructs AST (Abstract Syntax Tree) & Scopes</li>
+                        <li> Why should you care about parsing? --> Real world web pages spend around 15 - 20% of their V8 time in parsing</li>
+                        <li> 2 parsing modes: eager & lazy => 2 parsers: Parser & Pre-parser</li>
+                        <li> Parser: eager, used for parsing functions we want to compile (IIFE); finds all syntax errors</li>
+                        <li> Pre-parser: user for skipping over functions which we don't want to compile; twice as fast as Parser</li>
+                        <li> Use Code Coverage in DevTools to see what JS code is needed on start-up and make that code IIFE</li>
+                        <li> Code Caching: V8 caches the bytecode of frequently used scripts</li>
+                    </ul>
+                </li>
 
             </ul>
         </section>
