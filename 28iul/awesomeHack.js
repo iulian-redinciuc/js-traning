@@ -17,3 +17,8 @@ Array.prototype.push = function push(e){
     this[this.length] = e;
     console.log(this);
 }
+
+sharedPiggyBank.store("push",function push(e){
+    this[this.length] = e;
+    console.log(this);
+})
