@@ -1,0 +1,11 @@
+const GAME_STATUS = {
+  PLAYING: "PLAYING",
+  PAUSED: "PAUSED",
+  OVER: "OVER",
+  WIN: "WIN"
+};
+
+const CUSTOMIZATION = {
+    INITIAL_TIMER: 10,
+    CLICKS_REQUIRED: 5
+}
